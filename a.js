@@ -1,6 +1,6 @@
 async function getQueryAnswer(){
         try {
-          const divRef = document.querySelector("#weather");
+          const divRef = document.querySelector("#game");
              const queryInputRef = document.querySelector("#query");
              const query = queryInputRef.value;
              const res = await axios.post(
@@ -10,7 +10,7 @@ async function getQueryAnswer(){
       {
         "parts": [
             {
-                text:"You are a weather reporter and tell about weather, if other thing is asked said query is wrong",
+                text:"You are a good gamer and tell about gaming, if other thing is asked said query is wrong",
 
             },
           {
